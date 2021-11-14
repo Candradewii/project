@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SPA Example">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Candra Dewi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/src/img/icon.ico" type="image/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/app.css">
+
+    <title>Travel With Me | Pergi Jauh, Dengan Nyaman</title>
+</head>
+
+<body>
+    <header class="as-header" id="header">
+        <nav class="as-nav as-container">
+            <a href="#" class="as-nav__logo">Travel With Me</a>
+
+            <div class="as-nav__menu" id="nav-menu">
+                <ul class="as-nav__list">
+                    <li class="as-nav__item"><a href="#home" class="as-nav__link active-link">Home</a></li>
+                    <li class="as-nav__item"><a href="#destination" class="as-nav__link">Destination</a></li>
+                    <li class="as-nav__item"><a href="#partner" class="as-nav__link">Pembayaran</a></li>
+                </ul>
+            </div>
+
+            <div class="as-nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="as-main">
+        <section id="home" class="as-hero">
+            <div class="as-hero__container as-container">
+                <div class="as-hero__data">
+                    <h1 class="as-hero__title">Ayo #Berwisata di Seluruh Indonesia</h1>
+                    <h2 class="as-hero__subtitle">Indonesia merupakan salah satu negara kepulauan dan dikenal 
+                        sebagai negara maritim di dunia. Indonesia memiliki banyak pulau dan beragam suku
+                         budaya sehingga tak heran banyak kuliner otentikdan khas disetiap daerahnya, 
+                         memiliki berbagai kekayaan alam yang sangat indah itu membuat wisatawan lokal 
+                         maupun wisatawan asing sangat ingin berwisata di Indonesia </h2>
+                    <a href="#destination" class="as-button">Lihat Selengkapnya</a>
+                </div>
+
+                <img src="src/img/hero.webp" loading="lazy" class="as-hero__img" alt="hero">
+            </div>
+        </section>
+
+        <section id="destination" class="as-section">
+            <div class="as-container">
+                <h2 class="as-section__title">Destinasi Pilihan</h2>
+                <p class="as-section__description">Destinasi Liburan yang Paling Banyak di Kunjungi</p>
+                <div class="as-grid">
+                    <article class="as-grid__card">
+                        <img src="src/img/destinasi/bali.webp" class="as-grid__image" loading="lazy" alt="contoh">
+                        <div class="as-grid__card-wrapper">
+                            <h3 class="as-grid__title">Bali</h3>
+                            <p class="as-grid__description">Provinsi Bali merupakan daerah pariwisata terdepan di Indonesia. 
+                                Perpaduan alam yang indah dengan budaya yang menarik dan khas menjadi magnet bagi jutaan 
+                                wisatawan asing dan domestik untuk berkunjung ke pulau ini.</p>
+                            <div class="as-grid__button-wrapper">
+                                <a href="#" class="as-grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="as-grid__card">
+                        <img src="src/img/destinasi/bandung.webp" class="as-grid__image" loading="lazy" alt="contoh">
+                        <div class="as-grid__card-wrapper">
+                            <h3 class="as-grid__title">Bandung</h3>
+                            <p class="as-grid__description">Kota Bandung merupakan kota metropolitan terbesar di wilayah Jawa Barat. 
+                                Tak hanya menjadi pusat pemerintahan Provinsi Jawa Barat, Kota Bandung juga tumbuh menjadi pusat 
+                                perdagangan lokal dan regional, pusat pendidikan, kota pariwisata dan kebudayaan, serta pusat 
+                                industri. Banyak julukan yang disematkan kota ini mulai dari Kota Kembang, "Parijs van Java", 
+                                hingga surga kuliner.</p>
+                            <div class="as-grid__button-wrapper">
+                                <a href="#" class="as-grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="as-grid__card">
+                        <img src="src/img/destinasi/labuan.webp" class="as-grid__image" loading="lazy" alt="contoh">
+                        <div class="as-grid__card-wrapper">
+                            <h3 class="as-grid__title">Labuan Bajo</h3>
+                            <p class="as-grid__description">Labuan Bajo merupakan sebuah surga tersembunyi yang ada di Indonesia bagian
+                                 timur. Labuan Bajo adalah salah satu dari lima Destinasi Super Prioritas yang sedang dikembangkan di 
+                                 Indonesia. Destinasi ini menyimpan keindahan alam yang menakjubkan dan hewan purba yang mendunia. Mulai
+                                  dari hewan endemik komodo di Taman Nasional Komodo, deretan pulau eksotis, keragaman hayati bawah laut,
+                                   hingga pantai aduhai, semua bisa Sobat Pesona temukan di Labuan Bajo.</p>
+                            <div class="as-grid__button-wrapper">
+                                <a href="#" class="as-grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="as-grid__card">
+                        <img src="src/img/destinasi/jakarta.webp" class="as-grid__image" loading="lazy" alt="contoh">
+                        <div class="as-grid__card-wrapper">
+                            <h3 class="as-grid__title">Jakarta</h3>
+                            <p class="as-grid__description">Jakarta merupakan kota metrapolitan terbesar di Asia Tenggara.
+                                 Dengan Jumlah penduduk lebih dari 10 juta jiwa. Jakarta juga menjadi pusat pemerintahan,
+                                  pusat bisnis, dan pusat kebudayaan. Dibalik itu semua, ternyata ada banyak tempat wisata 
+                                  di Jakarta yang menarik untuk kita kunjungi.</p>
+                            <div class="as-grid__button-wrapper">
+                                <a href="#" class="as-grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="as-grid__card">
+                        <img src="src/img/destinasi/lombok.webp" class="as-grid__image" loading="lazy" alt="contoh">
+                        <div class="as-grid__card-wrapper">
+                            <h3 class="as-grid__title">Lombok</h3>
+                            <p class="as-grid__description">Pulau Lombok menyimpan banyak pesona wisata nan menarik. Mulai dari alam, budaya,
+                                 hingga keagamaan. Berikut tempat — tempat wisata yang bisa dijadikan pilihan seperti Gili Trawangan, Gunung 
+                                 Rinjani, Senggigi, Desa Adat Sade, Tete Batu, Pantai Nipah.</p>
+                            <div class="as-grid__button-wrapper">
+                                <a href="#" class="as-grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="as-grid__card">
+                        <img src="src/img/destinasi/toba.webp" class="as-grid__image" loading="lazy" alt="contoh">
+                        <div class="as-grid__card-wrapper">
+                            <h3 class="as-grid__title">Danau Toba</h3>
+                            <p class="as-grid__description">Danau Toba adalah sebuah keajaiban alam yang sangat menakjubkan. Danau ini 
+                                diperkirakan terbentuk dari letusan dahsyat sebuah gunung api, Gunung Toba, yang terjadi sekitar 74.000 
+                                tahun yang lalu. Dengan luas lebih dari 1.145 kilometer persegi dan kedalaman 450 meter, Danau Toba 
+                                sebenarnya lebih mirip lautan daripada danau. Di tengah danau vulkanik terbesar di dunia ini juga 
+                                terdapat sebuah pulau yang berukuran cukup besar, yaitu Pulau Samosir.</p>
+                            <div class="as-grid__button-wrapper">
+                                <a href="#" class="as-grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="partner" class="as-section as-section-soft">
+            <div class="as-container">
+                <h2 class="as-section__title">Partner Pembayaran</h2>
+                <p class="as-section__description">Berbagai metode pembayaran yang di tawarkan, mudah dan praktis</p>
+                <ul class="as-flex">
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/atm-bersama.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/bca.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/bni.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/bri.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/dana.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/gopay.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/ovo.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                    <li class="as-flex__item">
+                        <img src="src/img/payment/mandiri.svg" class="as-flex__image" alt="contoh">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="as-section as-footer">
+        <div class="as-container">
+            <div class="as-footer__container">
+                <div class="as-footer__content">
+                    <a href="#" class="as-footer__social" aria-label="socmed"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="as-footer__social" aria-label="socmed"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="as-footer__social" aria-label="socmed"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="as-footer__social" aria-label="socmed"><i class="bx bxl-youtube"></i></a>
+                </div>
+
+                <div class="as-footer__content">
+                    <a href="#" class="as-footer__link">Hubungi Kami</a>
+                </div>
+
+                <div class="as-footer__content">
+                    <a href="#" class="as-footer__link">Syarat & Ketentuan</a>
+                </div>
+
+                <div class="as-footer__content">
+                    <a href="#" class="as-footer__link">Kebijakan Privasi</a>
+                </div>
+            </div>
+            <p class="as-footer__copy">&#169; 2021 Travel With Me. All right reserved</p>
+        </div>
+    </footer>
+
+    <script src="dist/js/app.js"></script>
+</body>
+
+</html>
